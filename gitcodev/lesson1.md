@@ -47,12 +47,12 @@ This contains general information about the lesson and illustrations for suppori
 ```shell
     cd ~/Desktop/
     ls
-    mkdir -p 2310-gitcodev/git
+    mkdir -p 2410-gitcodev/git
     ls
-    ls 2310-gitcodev/
+    ls 2410-gitcodev/
 ```
 ```shell
-    cd 2310-gitcodev/git/
+    cd 2410-gitcodev/git/
     ls
     pwd
 ```
