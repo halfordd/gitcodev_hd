@@ -12,9 +12,35 @@ After each excercise the instructor should demostrate the solutions. Some of the
 The list of commands below has been grouped arbitrarily for readability's sake.
 ````
 
+Sections below include content from lesson 3:
+
+Lecture notes for the lesson on introduction to collaborative software development. These notes contains the following pointers for the instructor:
+
+* Numbers between `[]` are indicative of how much time should be spend in each topic or exercise to keep in track with the lesson [schedule.](schedule.md)
+* The text in  **Instructor note** contain explanations or reminders for the instructor. For example:
+    `````{admonition} Instructor's Note
+
+    Ensure that all users have git and bash available at the start of the course.
+    ````` 
+
+````{card} 
+Presentation 
+^^^    
+
+This contains general information about the lesson and illustrations for supporing the explanations of some of the concepts, and 
+
+*[Collaborative software development](https://docs.google.com/presentation/d/1BucILQ9Osz_2tKYF3kF-c3uZFND8xfJ4/edit?usp=sharing)*
+````
+
+
 ## Episode 1: Git repositories for version control
+**[ca 30 min total]** 
+
+### 1.1.0 Welcome slides
+**[10 min]**
 
 ### 1.1.1 Introduction to Git
+**[6 min]**
 
 * Create a directory for the course
 
@@ -46,10 +72,10 @@ The list of commands below has been grouped arbitrarily for readability's sake.
 ```
 
 ### 1.1.2 Git Command Syntax and Getting Help
+**[6 min]**
 
 ```shell
     git help
-    git helphelp
     git help help
     git config
     git config --list
@@ -66,6 +92,7 @@ The list of commands below has been grouped arbitrarily for readability's sake.
 ```
 
 ### 1.1.3. Creating an Empty Reposiory
+**[6 min]**
 
 ``` shell
     pwd
@@ -92,6 +119,8 @@ The list of commands below has been grouped arbitrarily for readability's sake.
 ## Episode 2: Tracking Changes in Working Documents
 
 ### 1.2.1 Tracking Changes with the Index
+**[15 min]**
+
 ```shell
     git status 
     git add lines.txt
@@ -150,6 +179,7 @@ Exercise 1 --- Tracking changes with the Index
 ```
 
 ### 1.2.2 Not Tracking and Stop Tracking
+**[]**
 
 ```shell
     history
